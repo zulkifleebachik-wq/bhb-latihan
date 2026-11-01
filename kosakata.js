@@ -162,7 +162,7 @@ const LANGKAH = [
 "ar": "وَمَا أَنَا مِنَ الْمُشْرِكِينَ",
 "q": false,
 "r": "wa mā ana minal-musyrikīn",
-"m": "dan aku bukan golongan musyrik",
+"m": "dan aku bukan daripada golongan musyrik",
 "kunci": false,
 "re": "wa mā ana minal-mushrikīn",
 "me": "and I am not among those who associate partners"
@@ -225,7 +225,7 @@ const LANGKAH = [
 "ar": "وَأَنَا مِنَ الْمُسْلِمِينَ",
 "q": false,
 "r": "wa ana minal-muslimīn",
-"m": "dan aku golongan yang berserah diri",
+"m": "dan aku daripada golongan yang berserah diri",
 "kunci": false,
 "re": "wa ana minal-muslimīn",
 "me": "and I am among those who submit"
