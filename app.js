@@ -269,4 +269,4 @@ function hala() {
 }
 app.addEventListener("click", e => { const b = e.target.closest("[data-bh]"); if (b && b.dataset.bh !== S.bahasa) { const kod = document.getElementById("kod")?.value; S.bahasa = b.dataset.bh; simpan(); hala(); if (kod) document.getElementById("kod").value = kod; } });
 addEventListener("hashchange", hala); hala();
-if ("serviceWorker" in navigator && location.protocol === "https:") navigator.serviceWorker.register("sw.js").catch(() => {});
+if ("serviceWorker" in navigator && location.protocol === "https:") navigator.serviceWorker.register("sw.js", { updateViaCache: "none" }).catch(() => {});
